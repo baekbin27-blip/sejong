@@ -1,0 +1,5 @@
+#!/bin/bashfor file in *.dat; do
+    mv "$file" "${file%.dat}.txt"
+done
+
+
